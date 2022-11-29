@@ -1,0 +1,17 @@
+.todo_patio{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(17, 90, 155);
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+    .card_area{
+        width: 300px;
+        height: 500px;
+        background-color: aqua;
+    }
+}
