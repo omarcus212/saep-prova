@@ -1,4 +1,5 @@
 import React from "react";
+import CardArea from "../../components/cardArea";
 
 
 const Patio = () => {
@@ -7,30 +8,17 @@ const Patio = () => {
     return (
 
         <div className="todo_patio">
-            <div className="card_area">
-                return api
-            </div>
-            <div className="card_area">
-                return api
-            </div>
-            <div className="card_area">
-                return api
-            </div>
-            <div className="card_area">
-                return api
-            </div>
-            <div className="card_area">
-                return api
-            </div>
-            <div className="card_area">
-                return api
-            </div>
-            <div className="card_area">
-                return api
-            </div>
-            <div className="card_area">
-                return api
-            </div>
+          
+            <CardArea Idarea={10} onClick={()=>{console.log('oi')}} />
+            <CardArea Idarea={10} onClick={()=>{console.log('oi')}} />
+            <CardArea Idarea={10} onClick={()=>{console.log('oi')}} />
+            <CardArea Idarea={10} onClick={()=>{console.log('oi')}} />
+            <CardArea Idarea={10} onClick={()=>{console.log('oi')}} />
+            <CardArea Idarea={10} onClick={()=>{console.log('oi')}} />
+            <CardArea Idarea={10} onClick={()=>{console.log('oi')}} />
+            <CardArea Idarea={10} onClick={()=>{console.log('oi')}} />
+            
+           
             
         </div>
     );

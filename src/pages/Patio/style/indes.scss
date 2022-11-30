@@ -1,6 +1,7 @@
 .todo_patio{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    height: inherit;
     background-color: rgb(17, 90, 155);
     display: flex;
     padding: 5px;
@@ -13,5 +14,8 @@
         width: 300px;
         height: 500px;
         background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

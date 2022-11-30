@@ -1,0 +1,21 @@
+.ConfirmaVenda{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #9c9c9c80;
+
+    .div_mini_modal{
+        width: 70%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .list{
+            width: 60%;
+            height: 30%;
+            background-color: aqua;
+        }
+    }
+}
